@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\moon\AndroidStudioProjects\MiGong1.2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3eebb22cc38e80266d3a257ab8d130172d104730">
+        <dex dex="C:\Users\moon\AndroidStudioProjects\MiGong1.2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_128b3fad328fd9a0d87910208a56c35c1752e645\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\moon\AndroidStudioProjects\MiGong1.2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="af293da9b6d82239982f8463ed89b4f267fe0905">
+        <dex dex="C:\Users\moon\AndroidStudioProjects\MiGong1.2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e798a6c546bc726c3c3fcac670a25d23564a39cd\classes.dex" />
+    </item>
+
+</items>

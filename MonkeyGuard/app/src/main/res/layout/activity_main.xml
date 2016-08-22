@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_back"
+    tools:context="com.example.moon.monkeyguard.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/main_back">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/menu"
+            android:layout_alignTop="@+id/mesg_img"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MonkeyGuard"
+            android:textColor="@color/white"
+            android:id="@+id/title"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/menu"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/mesg_img"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r2"
+        android:layout_below="@id/r1">
+        <RelativeLayout
+            android:id="@+id/temp_circle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/temp_circle"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp">
+            <ImageView
+                android:id="@+id/tempImg"
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:src="@drawable/temp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"/>
+            <TextView
+                android:id="@+id/temp_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="38℃"
+                android:textColor="@color/white"
+                android:layout_below="@+id/tempImg"
+                android:layout_centerInParent="true"
+                android:textSize="30dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fog_circle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/fog_circle"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="190dp">
+            <TextView
+                android:id="@+id/fog_main_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="0dp"/>
+            <TextView
+                android:id="@+id/fog_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:width="100dp"
+                android:layout_below="@id/fog_main_ok"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r3"
+        android:layout_below="@id/r2"
+        android:layout_marginTop="50dp">
+        <RelativeLayout
+            android:id="@+id/fire_circle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/fire_circle"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp" >
+            <TextView
+                android:id="@+id/fire_main_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/other_circle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/other_circle"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="190dp">
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

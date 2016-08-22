@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back">
+<!-- 游戏的名字 -->
+<ImageView
+	android:id="@+id/gamename" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:background="@drawable/gamename"
+    android:layout_centerHorizontal="true"
+    android:height = "55px"
+    />
+<!-- 中间 -->
+<TextView
+	android:id="@+id/text1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:background="#000000"
+    android:layout_centerHorizontal="true"
+    android:height = "5px"
+    android:layout_below="@id/gamename"
+    />
+
+<ImageButton
+	android:id="@+id/startgame" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:src="@drawable/startgame"
+    android:background="#000000"
+    android:layout_below="@id/text1"
+    android:layout_centerHorizontal="true"
+    />
+<TextView
+	android:id="@+id/text2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+	android:height = "5px"
+	android:layout_below="@+id/startgame" />
+ <ImageButton
+	android:id="@+id/rulesgame" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:src="@drawable/rulesgame"
+    android:background="#000000"
+    android:layout_below="@id/text2"
+    android:layout_centerHorizontal="true"
+    />
+<TextView
+	android:id="@+id/text3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:background="#000000"
+    android:layout_centerHorizontal="true"
+    android:height = "5px"
+    android:layout_below="@id/rulesgame"
+    />    
+ <ImageButton
+	android:id="@+id/aboutgame" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:src="@drawable/aboutgame"
+    android:background="#000000"
+    android:layout_below="@id/text3"
+    android:layout_centerHorizontal="true"
+    />
+
+<TextView
+	android:id="@+id/text4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:layout_centerHorizontal="true"
+    android:height = "5px"
+    android:layout_below="@id/aboutgame"
+    />
+
+	<ImageButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/setting"
+		android:src="@drawable/setting"
+		android:background="#000000"
+		android:layout_below="@+id/text4"
+		android:layout_alignLeft="@+id/quitgame" />
+
+	<TextView
+		android:id="@+id/text5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#000000"
+		android:layout_centerHorizontal="true"
+		android:height = "5px"
+		android:layout_below="@id/setting"
+		/>
+
+	<ImageButton
+		android:id="@+id/quitgame"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/quitgame"
+		android:background="#000000"
+		android:layout_below="@id/text5"
+		android:layout_centerHorizontal="true"
+		/>
+
+</RelativeLayout>

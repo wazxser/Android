@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back">
+  
+<com.zte.wcj.GameView
+	android:id="@+id/mygameview"
+  	android:layout_width ="310px"
+	android:layout_height="wrap_content"
+/>
+<TextView
+	android:id="@+id/black"
+  	android:layout_width ="55px"
+	android:layout_height="55px"
+	android:layout_toRightOf="@id/mygameview"
+/>
+<ImageButton
+	android:id="@+id/left"
+  	android:layout_width ="wrap_content"
+	android:layout_height="wrap_content"
+	android:src = "@drawable/left"
+	android:layout_alignTop="@+id/attact"
+	android:layout_alignLeft="@+id/black3" />
+
+<ImageButton
+	android:id="@+id/up"
+  	android:layout_width ="wrap_content"
+	android:layout_height="wrap_content"
+	android:src = "@drawable/up"
+	android:layout_alignParentTop="true"
+	android:layout_toRightOf="@+id/left" />
+<ImageButton
+	android:id="@+id/attact"
+  	android:layout_width ="wrap_content"
+	android:layout_height="wrap_content"
+	android:src = "@drawable/attact"
+	android:layout_toRightOf="@id/left"
+	android:layout_below="@id/up"
+/>
+<TextView
+	android:id="@+id/black2"
+  	android:layout_width ="55px"
+	android:layout_height="55px"
+	android:layout_toRightOf="@id/up"
+/>
+<ImageButton
+	android:id="@+id/right"
+  	android:layout_width ="wrap_content"
+	android:layout_height="wrap_content"
+	android:src = "@drawable/right"
+	android:layout_below="@+id/up"
+	android:layout_toRightOf="@+id/up" />
+<TextView
+	android:id="@+id/black3"
+  	android:layout_width ="55px"
+	android:layout_height="55px"
+	android:layout_below="@id/left"
+	android:layout_toRightOf="@id/mygameview"
+/>
+<ImageButton
+	android:id="@+id/down"
+  	android:layout_width ="wrap_content"
+	android:layout_height="wrap_content"
+	android:src = "@drawable/down"
+	android:layout_below="@+id/attact"
+	android:layout_toRightOf="@+id/left" />
+<TextView
+	android:id="@+id/black5"
+  	android:layout_width ="15px"
+	android:layout_height="15px"
+	android:layout_below="@id/black3"
+	android:layout_toRightOf="@id/mygameview"
+/>
+<TextView
+	android:id="@+id/info"
+  	android:layout_width ="250px"
+	android:layout_height="70px"
+	android:layout_below="@id/down"
+	android:layout_toRightOf="@id/black5"
+	android:textColor ="#000000"
+	android:text="显示信息的面版"
+/>
+
+<TextView
+	android:id="@+id/black6"
+  	android:layout_width ="15px"
+	android:layout_height="15px"
+	android:layout_below="@id/info"
+	android:layout_toRightOf="@id/mygameview"
+/>
+
+<ImageButton
+	android:id="@+id/zuiduan"
+  	android:layout_width ="wrap_content"
+	android:layout_height="wrap_content"
+	android:src = "@drawable/tishi"
+	android:layout_below="@id/info"
+	android:layout_toRightOf="@id/black6"
+/>
+<ImageButton
+	android:id="@+id/fanhui"
+  	android:layout_width ="wrap_content"
+	android:layout_height="wrap_content"
+	android:src = "@drawable/fanhui"
+	android:layout_below="@+id/info"
+	android:layout_toRightOf="@+id/zuiduan" />
+</RelativeLayout>

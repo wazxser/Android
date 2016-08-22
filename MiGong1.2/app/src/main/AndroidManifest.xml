@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.zte.wcj"
+      android:versionCode="1"
+      android:versionName="1.0">
+      <!-- 
+      android:theme="@android:style/Theme.NoTitleBar 隐去标题栏
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 隐去状态栏
+      -->
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MiGong"
+                  android:label="@string/app_name"
+				  android:screenOrientation="landscape"><!-- 强制设置为横屏模式 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".yypService"
+            android:exported="true"
+            android:process=":remote">
+        </service>
+
+    </application>
+</manifest> 

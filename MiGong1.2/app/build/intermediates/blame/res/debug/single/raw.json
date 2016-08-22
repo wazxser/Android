@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\moon\\AndroidStudioProjects\\MiGong1.2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\music.mp3",
+        "source": "C:\\Users\\moon\\AndroidStudioProjects\\MiGong1.2\\app\\src\\main\\res\\raw\\music.mp3"
+    },
+    {
+        "merged": "C:\\Users\\moon\\AndroidStudioProjects\\MiGong1.2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\guoguan.mp3",
+        "source": "C:\\Users\\moon\\AndroidStudioProjects\\MiGong1.2\\app\\src\\main\\res\\raw\\guoguan.mp3"
+    },
+    {
+        "merged": "F:\\MyBackups\\AndroidStudioProjects\\MiGong1.2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\music.mp3",
+        "source": "F:\\MyBackups\\AndroidStudioProjects\\MiGong1.2\\app\\src\\main\\res\\raw\\music.mp3"
+    },
+    {
+        "merged": "F:\\MyBackups\\AndroidStudioProjects\\MiGong1.2\\app\\build\\intermediates\\res\\merged\\debug\\raw\\guoguan.mp3",
+        "source": "F:\\MyBackups\\AndroidStudioProjects\\MiGong1.2\\app\\src\\main\\res\\raw\\guoguan.mp3"
+    }
+]

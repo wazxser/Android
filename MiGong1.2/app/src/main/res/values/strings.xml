@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, 勇士!</string>
+    <string name="app_name">丛林勇士</string>
+    <string name="rulesgame">    你是一名忍者，为了执行任务穿越丛林，打败丛林里的恶魔吧！本游戏通过屏幕右方上下左右键控制行动，中间攻击键发射飞镖，打败所有恶魔后
+    到达终点即可胜利，注意不要被恶魔碰到。</string>
+</resources>
